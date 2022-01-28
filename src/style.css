@@ -1,0 +1,47 @@
+.app {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 5px;
+}
+
+.weather-app {
+  padding: 15px;
+  border: 2px solid #0a3355;
+  border-radius: 20px;
+}
+
+h1,
+h2,
+h3 {
+  color: #0a3355;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  display: inline;
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 150px;
+  padding-left: 20px;
+}
+
+h2,
+h3 {
+  text-align: right;
+}
+p {
+  display: inline;
+}
+
+ul {
+  padding: 0px;
+}
+li {
+  list-style: none;
+  display: inline;
+  color: #434343;
+  font-family: "Dongle", sans-serif;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  padding-right: 10px;
+}

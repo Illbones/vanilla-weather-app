@@ -1,4 +1,4 @@
-.app {
+.app-wrapper {
   max-width: 600px;
   margin: 40px auto;
   padding: 5px;
@@ -10,31 +10,56 @@
   border-radius: 20px;
 }
 
-h1,
-h2,
-h3 {
-  color: #0a3355;
-  font-family: "Poppins", sans-serif;
+.search-bar {
+  margin-bottom: 20px;
 }
 
-h1 {
+.temp {
+  color: #0a3355;
+  font-family: "Poppins", sans-serif;
   display: inline;
   font-size: 3.5rem;
   font-weight: 800;
-  line-height: 150px;
+  line-height: 100px;
   padding-left: 20px;
 }
 
-h2,
-h3 {
+.city {
+  color: #0a3355;
+  font-family: "Poppins", sans-serif;
   text-align: right;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 50px;
 }
+
+.time {
+  color: #0a3355;
+  font-family: "Poppins", sans-serif;
+  text-align: right;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 50px;
+}
+
 p {
   display: inline;
 }
 
+.weather-temperature img {
+  max-width: 100px;
+  margin-bottom: 40px;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 1rem;
+  bottom: 0px;
+  color: #242424;
+}
 ul {
   padding: 0px;
+  margin: 0px;
 }
 li {
   list-style: none;
@@ -44,4 +69,22 @@ li {
   font-size: 1.3rem;
   font-weight: lighter;
   padding-right: 10px;
+}
+.misc {
+  margin-top: -20px;
+}
+
+.code-by {
+  padding-left: 20px;
+}
+
+a {
+  color: #242424;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #054b85;
+  text-decoration: underline;
+  cursor: pointer;
 }

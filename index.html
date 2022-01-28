@@ -22,22 +22,30 @@
   </head>
   <body>
     <div class="container">
-      <div class="app">
+      <div class="app-wrapper">
         <div class="weather-app">
-          <p>search bar placeholder</p>
+          <div class="search-bar">
+            <p>search bar placeholder</p>
+          </div>
           <div class="row">
             <div class="col-7">
-              <span>
-                <img src="" alt="weather icon" />
-                <h1>12°</h1>
-                <p>C|F</p>
+              <span class="clearfix weather-temperature">
+                <img
+                  src="src/images/sunny.png"
+                  alt="weather icon"
+                  class="float-left"
+                />
+                <span class="float-left">
+                  <span class="temp">12</span>
+                  <small class="units">°C|<a href="#">°F</a></small>
+                </span>
               </span>
             </div>
             <div class="col-5">
-              <h2>New York</h2>
-              <h3>Friday, 05:00</h3>
+              <div class="city">New York</div>
+              <div class="time">Friday, 05:00</div>
             </div>
-            <div>
+            <div class="misc">
               <p>Clear</p>
               <ul>
                 <li>Precipitation: 0%</li>

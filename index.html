@@ -26,8 +26,18 @@
     <div class="container">
       <div class="app-wrapper">
         <div class="weather-app">
-          <div class="search-bar">
-            <p>search bar placeholder</p>
+          <div class="search">
+            <form id="search-form">
+              <input
+                type="search"
+                placeholder="Enter a location"
+                class="search-bar"
+                id="city-input"
+                autocomplete="off"
+              />
+
+              <input type="submit" value="Search" class="search-button" />
+            </form>
           </div>
           <div class="row">
             <div class="col-7">
@@ -50,7 +60,7 @@
               <p id="description"></p>
               <ul>
                 <li>Humidity: <span id="humidity"></span>%</li>
-                <li>Wind: <span id="wind"></span>Km/h</li>
+                <li>Wind: <span id="wind"></span> km/h</li>
               </ul>
             </div>
           </div>

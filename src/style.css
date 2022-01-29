@@ -44,6 +44,7 @@
 
 p {
   display: inline;
+  text-transform: capitalize;
 }
 
 .weather-temperature img {

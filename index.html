@@ -17,6 +17,8 @@
       href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
     <title>🍃🍂Weather App🍂🍃</title>
   </head>
@@ -36,21 +38,20 @@
                   class="float-left"
                 />
                 <span class="float-left">
-                  <span class="temp">12</span>
+                  <span class="temp" id="temperature"></span>
                   <small class="units">°C|<a href="#">°F</a></small>
                 </span>
               </span>
             </div>
             <div class="col-5">
-              <div class="city">New York</div>
+              <div class="city" id="location"></div>
               <div class="time">Friday, 05:00</div>
             </div>
             <div class="misc">
-              <p>Clear</p>
+              <p id="description"></p>
               <ul>
-                <li>Precipitation: 0%</li>
-                <li>Humidity: 73%</li>
-                <li>Wind: 10km/h: 0%</li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span>Km/h</li>
               </ul>
             </div>
           </div>

@@ -30,16 +30,28 @@
   text-align: right;
   font-size: 1.8rem;
   font-weight: 600;
-  line-height: 50px;
+  line-height: 45px;
+  padding-top: 10px;
 }
 
-.time {
+.lastup {
+  text-align: right;
+  font-family: "Dongle", sans-serif;
+  color: #4e4e4e;
+  font-size: 0.9rem;
+  font-style: oblique;
+  line-height: 10px;
+  padding-top: -15px;
+}
+
+#date.time {
   color: #0a3355;
   font-family: "Poppins", sans-serif;
   text-align: right;
   font-size: 1.6rem;
+  font-style: normal;
   font-weight: 600;
-  line-height: 50px;
+  line-height: 40px;
 }
 
 p {

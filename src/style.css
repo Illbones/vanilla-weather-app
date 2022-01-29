@@ -115,8 +115,9 @@ a:hover {
 
 p {
   display: inline;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   text-transform: capitalize;
+  padding-right: 10px;
 }
 
 ul {

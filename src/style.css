@@ -149,16 +149,6 @@ li {
   color: #4e4e4e;
 }
 
-.weather-temperature .active {
-  color: #0a3355;
-  font-weight: 700;
-  cursor: default;
-}
-
-.weather-temperature .active:hover {
-  text-decoration: none;
-}
-
 .weather-forecast {
   margin-top: 20px;
   text-align: center;

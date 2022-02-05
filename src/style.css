@@ -158,3 +158,31 @@ li {
 .weather-temperature .active:hover {
   text-decoration: none;
 }
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.weather-forecast-date {
+  color: #0a3355;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.weather-forecast-temp {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  font-family: "Dongle", sans-serif;
+}
+
+.weather-forecast-temp-max {
+  color: #525252;
+  font-weight: 500;
+}
+
+.weather-forecast-temp-min {
+  color: #707070;
+  font-weight: lighter;
+}
